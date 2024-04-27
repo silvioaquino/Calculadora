@@ -47,3 +47,37 @@ body {
     overflow-wrap: break-word;
 }
 
+#butao-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+#butao-container button {
+    border: 1px solid transparent;
+    border-radius: 0;
+    height: 4m;
+    font-size: 1.2em;
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
+
+#butao-container .numero {
+    background-color: #f3f3f3;
+}
+
+#butao-container button:hover {
+    background-color: #bababa;
+    border-color: #999;
+}
+
+#butao-container #btn-igual {
+    grid-column: span 2;
+    background-color: #75a5cb;
+}
+
+#butao-container #btn-igual:hover {
+    background-color: #3a91d8;
+}
+
+
