@@ -15,7 +15,7 @@ body {
 
 #calculadora {
     width: 400px;
-    padding: 5em;
+    padding: 0.5em;
     background-color: #c4c4c4;
     color: #000;
     display: flex;
@@ -23,7 +23,7 @@ body {
 }
 
 #calculadora h3 {
-    font-size: .8em;
+    font-size: 0.8em;
     font-weight: 300;
     color: #666;
 }
